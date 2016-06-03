@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+They told me to create a blog , so I did it ;) I am intrested in penetraion testing and computers in general . 
+In the future I would like to play in DEFCON ctf 
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+###Contact Me
+Feel fre to contact me via twitter
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
