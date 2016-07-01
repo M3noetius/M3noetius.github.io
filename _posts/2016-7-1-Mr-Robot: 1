@@ -1,0 +1,23 @@
+---
+layout: post
+title: [Solution] Mr-Robot: 1 Vm Vunhub S
+---
+
+{% highlight python %}
+from PIL import Image ; 
+
+
+img = Image.open('shades.png'); #Open up the image
+x,y = img.size ;  #Get image size
+print x,y;
+
+pixelMap = img.load(); #Load images' pixels
+
+#Loop inside the pixels
+for i in xrange(0,x):
+	
+	for j in xrange(0,y):
+		pixel= pixelMap[i,j];
+
+		print '#%02x%02x%02x' % (pixel[0], pixel[1], pixel[2]); # Export #000000 format
+{% endhighlight %}
